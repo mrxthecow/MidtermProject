@@ -1,0 +1,110 @@
+
+.topbox{
+    width: auto;
+    height: 128px;
+    background-color: rgb(196, 38, 38);
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 64px;
+}
+.titlebox{
+    width: 512px;
+    display: flex;
+
+}
+.titleimg1{
+    width: 128px;
+    height: 128px;
+}
+.titleimg2{
+    max-width: 128px;
+    max-height: 128px;
+}
+.titletxt{
+    font-size: 64px;
+    font-family: x;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.mainimg{
+    width: 1080px;
+    height: 512px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+.midbox{
+    width: 1080px;
+    height: 256px;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    padding: 10px;
+    color: black;
+    text-align: left;
+}
+.txtsub{
+    color: black;
+    font-size: 24px;
+}
+.txtbox{
+    color: black;
+    width: 400px;
+    height: auto;
+
+}
+
+
+.btmbox{
+    width: auto;
+    height: 90px;
+    background-color: rgb(196, 38, 38);
+    color: white;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+/*----------------------------------------------------*/
+
+.menubox{
+    width: 1080px;
+    height: 720px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 20px;
+    margin-bottom: 32px;
+    padding: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menucontent{
+    width: 160px;
+    height: 200px;
+    background-color: rgb(231, 231, 231);
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.img1{
+    width: 128px;
+}
+.p1{
+    color: rgb(196, 38, 38);
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+
+@font-face{
+    font-family: x;
+    src: url("HanyiSentyPailouArch");
+}

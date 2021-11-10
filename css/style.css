@@ -101,7 +101,7 @@
 }
 .infobox{
     width: 1080px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
 }
 .infoimg{
@@ -109,5 +109,6 @@
     height: 160px;
 }
 .infoboxchild{
+    padding: 20px;
     text-align: left;
 }

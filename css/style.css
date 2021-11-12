@@ -1,7 +1,7 @@
 ul {margin-left: 0; padding-left: 0;}
 .topbox{
     width: auto;
-    height: 128px;
+    height: 64px;
     background-color: rgb(196, 38, 38);
     justify-content: space-between;
     padding: 20px;
@@ -16,15 +16,15 @@ ul {margin-left: 0; padding-left: 0;}
 .titleimg1{
     transform-style: preserve-3d;
     transform: translateZ(20px);
-    width: 128px;
-    height: 128px;
+    width: 64px;
+    height: 64px;
 }
 .titleimg2{
-    max-width: 128px;
-    max-height: 128px;
+    max-width: 64px;
+    max-height: 64px;
 }
 .titletxt{
-    font-size: 64px;
+    font-size: 32px;
     font-weight: bold;
     color: white;
     display: flex;
@@ -36,17 +36,14 @@ ul {margin-left: 0; padding-left: 0;}
     height: 512px;
     background-color: red;
     margin-bottom: 20px;
-    border-radius: 30px ;
+    border-radius: 10px ;
 }
 .midbox{
     width: 1080px;
     height: 256px;
     display: flex;
-    justify-content: space-between;
 }
 .a{
-    background-color: rgb(209, 209, 209);
-    border-radius: 20px;
     padding: 10px;
     margin-bottom: 20px;
     justify-content: left;
@@ -63,7 +60,7 @@ ul {margin-left: 0; padding-left: 0;}
     background-color: rgb(207, 96, 96);
     margin: 10px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
     line-height:-20px;
 }
 .txtsubtxt{
@@ -73,13 +70,13 @@ ul {margin-left: 0; padding-left: 0;}
     line-height: 1.75;
 }
 .txtbox{
+    padding: 10px;
+    padding-left: 30px;
     color: black;
-    width: 400px;
+    width: auto;
     height: auto;
     text-align: left;
 }
-
-
 .btmbox{
     width: auto;
     height: 90px;
@@ -93,8 +90,7 @@ ul {margin-left: 0; padding-left: 0;}
 
 .menubox{
     width: 1080px;
-    height: 720px;
-    background-color: rgb(200, 200, 200);
+    height: 512px;
     border-radius: 20px;
     margin-bottom: 32px;
     padding: 20px;
@@ -107,11 +103,17 @@ ul {margin-left: 0; padding-left: 0;}
 .menucontent{
     width: 160px;
     height: 200px;
-    background-color: rgb(231, 231, 231);
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
     margin: 20px;
+}
+.line1{
+    width: 256px;
+    height: 5px;
+    background-color: black;
+    border: none;
+    border-bottom: 5px;
 }
 .img1{
     width: 128px;
@@ -121,6 +123,7 @@ ul {margin-left: 0; padding-left: 0;}
     text-align: center;
     font-size: 24px;
 }
+/*------------------------*/
 .infobox{
     width: 1080px;
     padding: 20px;
@@ -133,4 +136,10 @@ ul {margin-left: 0; padding-left: 0;}
 .infoboxchild{
     padding: 20px;
     text-align: left;
+}
+.infoTag{
+    color: rgb(196, 38, 38);
+}
+.infoContent{
+    color: rgb(196, 38, 38);
 }

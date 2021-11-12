@@ -6,7 +6,7 @@ if(sure) x = "Yes you are"; else x = "Stop Kidding";
 alert(x);*/
 
 $('.img1').tilt({
-    scale: 1.2
+    scale: 1.1
 })
 
 $('.titleimg1').tilt({

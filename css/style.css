@@ -1,7 +1,9 @@
-ul {margin-left: 0; padding-left: 0;}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
 
-
-.topbox{
+.topbox {
     width: 100%;
     height: 80px;
     background-color: rgb(196, 38, 38);
@@ -10,23 +12,26 @@ ul {margin-left: 0; padding-left: 0;}
     display: flex;
     margin-bottom: 64px;
 }
-.titlebox{
+
+.titlebox {
     width: 512px;
     display: flex;
-
 }
-.titleimg1{
+
+.titleimg1 {
     transform-style: preserve-3d;
     transform: translateZ(20px);
     width: 50px;
     height: 50px;
     padding: 0%;
 }
-.titleimg2{
+
+.titleimg2 {
     max-width: 64px;
     max-height: 64px;
 }
-.titletxt{
+
+.titletxt {
     font-size: 32px;
     font-weight: bold;
     color: white;
@@ -34,22 +39,26 @@ ul {margin-left: 0; padding-left: 0;}
     align-items: center;
     padding-left: 20px;
 }
-.mainimg{
+
+.mainimg {
     width: 100%;
     height: auto;
     background-color: red;
     margin-bottom: 20px;
-    border-radius: 10px ;
+    border-radius: 10px;
 }
-.a{
+
+.a {
     padding: 10px;
     margin-bottom: 20px;
 }
-.ul{
+
+.ul {
     width: 256px;
     text-align: left;
 }
-.txtsub{
+
+.txtsub {
     list-style: none;
     font-size: 24px;
     width: auto;
@@ -58,50 +67,55 @@ ul {margin-left: 0; padding-left: 0;}
     margin: 10px;
     text-align: center;
     border-radius: 30px;
-    line-height:-20px;
+    line-height: -20px;
 }
-.txtsubtxt{
+
+.txtsubtxt {
     vertical-align: middle;
     color: rgb(255, 255, 255);
-    text-decoration:none;
+    text-decoration: none;
     line-height: 1.75;
 }
-.txtsubtxt:hover{
+
+.txtsubtxt:hover {
     color: rgb(255, 255, 255);
 }
-.txtbox{
+
+.txtbox {
     padding: 10px;
     color: black;
     width: 100%;
     height: auto;
     text-align: left;
 }
-.btmbox{
+
+.btmbox {
     padding-left: 10px;
     width: 100%;
     height: 90px;
     background-color: rgb(196, 38, 38);
     color: white;
-    display: flex ;
+    display: flex;
     align-items: center;
     justify-content: center;
-    z-index: -10;
 }
+
+
 /*----------------------------------------------------*/
 
-.menubox{
+.menubox {
     width: 100%;
     height: auto;
     border-radius: 20px;
     margin-bottom: 32px;
     padding: 20px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
 }
-.menucontent{
+
+.menucontent {
     width: 160px;
     height: 200px;
     justify-content: center;
@@ -109,43 +123,101 @@ ul {margin-left: 0; padding-left: 0;}
     border-radius: 10px;
     margin: 20px;
 }
-.line1{
+
+.line1 {
     width: 256px;
     height: 5px;
     background-color: black;
     border: none;
     border-bottom: 5px;
 }
-.img1{
+
+.img1 {
     width: 128px;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
-.p1{
+
+.p1 {
     color: rgb(196, 38, 38);
     text-align: center;
     font-size: 24px;
 }
+
+
 /*------------------------*/
-.infobox{
-    width: 540px;
-    padding: 20px;
-    padding-top: 0;
-    display: flex;
-}
-.infoimg{
+
+.infoimg {
     width: 160px;
-    height: 160px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
 }
-.infoboxchild{
+
+.infoboxchild {
     padding: 20px;
     text-align: left;
 }
-.infoTag{
+
+.infoTag {
     color: rgb(196, 38, 38);
 }
-.infoContent{
+
+.infoContent {
     color: rgb(196, 38, 38);
+}
+
+
+/*425 768 1024*/
+
+@media only screen and (max-width: 425px) {
+    .p1 {
+        font-size: 15px;
+    }
+    .titletxt {
+        font-size: 24px;
+    }
+    .infoimg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .infoTag {
+        color: rgb(196, 38, 38);
+        font-size: 24px;
+    }
+    .infoContent {
+        color: rgb(196, 38, 38);
+        font-size: 16px;
+    }
+    .btmbox {
+        font-size: 10px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .p1 {
+        font-size: 15px;
+    }
+    .titletxt {
+        font-size: 24px;
+    }
+    .infoimg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .infoTag {
+        color: rgb(196, 38, 38);
+        font-size: 24px;
+    }
+    .infoContent {
+        color: rgb(196, 38, 38);
+        font-size: 16px;
+    }
+    .btmbox {
+        font-size: 10px;
+        height: 60px;
+    }
 }

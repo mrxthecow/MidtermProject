@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,36 +10,41 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <title>Document</title>
 </head>
-<body><div class="wrapper">
+
+<body>
     <div class="topbox">
         <div class="titlebox">
             <a href="index.html">
-                <img src="img/logo1.png" class="titleimg1"alt="">
+                <img src="img/logo1.png" class="titleimg1" alt="">
             </a>
-        <div class="titletxt">小蔡水煎包</div>
+            <div class="titletxt">小蔡水煎包</div>
         </div>
 
         <img src="img/select.png" alt="">
 
     </div>
-    <center><img src="img/ad1.jpg" class="mainimg" alt=""></center>
-    <center><div class="midbox">
-        <nav class="a">
-            <ul><div class="ul"></div>
-                <li class="txtsub"><a href="index.html" class="txtsubtxt">首頁</a></li>
-                <li class="txtsub"><a href="menu.html" class="txtsubtxt">菜單</a></li>
-                <li class="txtsub"><a href="info.html" class="txtsubtxt">資訊</a></li>
-            </ul>
-        </nav>
-        <div class="txtbox">
-            <h2><b>歷史沿革</b></h2>
-            <p>「好吃好吃好好吃！0w0」<br><br>
-                小蔡水煎包開業至今，已經過了2天的時間，我們秉持著「水煎包好好吃 」的理念經營到了現在，致力給予消費者安心的消費環境、健康的食物品質，期許未來推展出更多風味的菜色供大家食用！
-            </p>
+
+
+    <div class="container">
+        <div class="row">
+            <img src="img/ad1.jpg" class="mainimg mx-auto col-8" alt="">
         </div>
-    </div></center>
-</div>
-    
+        <div class=" row justify-content-center" style="margin:auto 0 ;">
+            <nav class="a col-8 col-md-3">
+                <ul style="padding-left: 0;">
+                    <li class="txtsub "><a href="index.html" class="txtsubtxt">首頁</a></li>
+                    <li class="txtsub "><a href="menu.html" class="txtsubtxt">菜單</a></li>
+                    <li class="txtsub "><a href="info.html" class="txtsubtxt">資訊</a></li>
+                </ul>
+            </nav>
+            <div class="txtbox a col-12 col-md-6">
+                <p class="h2"><b>歷史沿革</b></p>
+                <p class="h5">「好吃好吃好好吃！0w0」<br><br>
+                    小蔡水煎包開業至今，已經過了2天的時間，我們秉持著「水煎包好好吃 」的理念經營到了現在，致力給予消費者安心的消費環境、健康的食物品質，期許未來推展出更多風味的菜色供大家食用！
+                </p>
+            </div>
+        </div>
+    </div>
     <footer class="btmbox">
         <p>
             Welcome to Xiao-Tsai Fried Bao
@@ -46,11 +52,13 @@
 
         </p>
     </footer>
-    
-    <script src="js/jquery-3.6.0.min.js" ></script>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/tilt.jquery.js"></script>
     <script src="js/script.js"></script>
     <script src="js/hello.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
